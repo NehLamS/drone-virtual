@@ -1,4 +1,4 @@
-Projet ros2_drone_ws — Description des packages
+Projet ros2_drone_ws - Description des packages (**ROS HUMBLE**)
 
 drone_msgs
 Définit le message custom DroneState utilisé par tous les autres packages : pose, vitesse, accélération, force et couple en un seul message horodaté.
@@ -20,3 +20,4 @@ Visualisation et perception. Affiche en temps réel 9 graphes (position, vitesse
 
 drone_bringup
 Point d'entrée unique du projet. Contient le launch file qui orchestre le démarrage de tous les composants avec les bons délais, et le fichier params.yaml centralisant tous les paramètres réglables.
+
